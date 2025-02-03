@@ -6,14 +6,7 @@ const image = document.querySelector("#image img");
 const imageInput = document.querySelector("#image input");
 
 // Replace with your valid API key
-const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=YOUR_API_KEY";
 
-let user = {
-  message: null,
-  file: {
-    mime_type: null,
-    data: null,
-  },
 };
 
 // Function to generate AI response
